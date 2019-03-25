@@ -1,0 +1,43 @@
+.row{
+    background-color:    rgba(157, 163, 157, 0.973);
+    margin-left: 450px;
+    margin-right: 450px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 8px;
+    border-radius: 10px;
+    
+    
+}
+#author{
+    height: 25px;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#description{
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#name{
+    margin-left: 90px;
+    height: 25px;
+    border-radius: 5px;
+}
+#submitb{
+    margin-left: 135px;
+    margin-top: 10px;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 1000;
+    background-color:  gold;
+    border-color: gold;
+}
+.newq{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}

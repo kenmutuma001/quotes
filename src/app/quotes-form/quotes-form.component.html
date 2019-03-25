@@ -1,0 +1,27 @@
+
+<div class="container-fluid">
+  <div class="row">
+    <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
+      <div class="form-group">
+        <p class="newq">Form to create a new quote</p>
+        <input type="text" required class="" id="name" placeholder="Name">
+
+      </div>
+      <div class="form-group">
+        
+        <textarea class="form-control" id="description" rows="3" required placeholder="Please type the Quote here"></textarea>
+
+
+      </div>
+      <div class="form-group">
+        
+        <input type="text" required class="form-control" id ="author" placeholder="Author">
+
+
+      </div>
+
+    </form>
+    <button type="submit" (click)="submitQuote()" id="submitb">CREATE</button>
+  </div>
+
+</div>
