@@ -1,0 +1,8 @@
+
+
+<div id="dateArea">
+    <p>Posted By: {{quote.postedBy}}</p>
+  <p>Posted: {{quote.completeDate|dateCount}} days ago</p>
+  <button id="like" type="button"(click)="upVote()">Thumps up {{likes}}</button>
+  <button id="dislike" type="button"(click)="downVote()">Thumps down {{disLikes}}</button><br><br>
+  <button id="delete" type="button"(click)="quoteComplete(true)">Delete</button></div>
