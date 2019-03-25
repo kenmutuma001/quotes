@@ -1,2 +1,6 @@
 
-<router-outlet></router-outlet>
+<body>
+      <p *ngFor='let quote of quotes'>{{quote.name}}</p>
+      <router-outlet></router-outlet>
+      <app-quote></app-quote>
+</body>
