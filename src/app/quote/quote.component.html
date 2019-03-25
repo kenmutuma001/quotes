@@ -1,0 +1,21 @@
+<div class="header">
+    <h1>Quotes</h1>
+</div>
+
+
+<div class="container">
+
+    <div class="row">
+        <app-quotes-form (addQuote)="addNewQuote($event)"></app-quotes-form>
+    </div>
+    
+</div>
+
+<div *ngFor='let quote of quotes;let i = index ' id="qname">
+  <p id="pname">{{quote.name}} </p>
+  <p id="author">
+      {{quote.description}}
+    </p>
+  <button  (click)='toogleDetails(i)' id="info">info</button>
+<app-quote-details  *ngIf="quote.showDescription" [quote]='quote' (isComplete)= 'completeQuote($event,i)'></app-quote-details>
+</div>
