@@ -1,0 +1,38 @@
+#qname{
+    background-color:   rgba(0, 0, 0, 0.377);
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+#pname{
+    font-style: oblique;
+    font-size: 17px;
+    font-weight: 700;
+}
+#author{
+    text-align: center;
+    font-style: italic;
+    font-weight: 1000;
+    color: rgba(20, 51, 30, 0.925);
+}
+#info{
+    background-color:   rgba(13, 14, 13, 0.993);
+    height: 30px;
+    width: 80px;
+    font-size: 17px;
+    color: white;
+}
+.header{
+   background: #d6249f;
+   background: radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%);
+   box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 5px;
+    color: beige;
+    margin-top: -54px;
+}
